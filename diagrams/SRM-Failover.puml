@@ -1,0 +1,27 @@
+@startuml
+title SRM Failover Process
+
+actor Admin
+rectangle "Primary Site" {
+  [vCenter Server]
+  [VM Cluster A]
+  database "Storage A"
+}
+
+rectangle "DR Site" {
+  [vCenter Server DR]
+  [VM Cluster B]
+  database "Storage B (Replica)"
+}
+
+Admin --> [vCenter Server] : Trigger Failover
+[vCenter Server] --> [vCenter Server DR] : SRM Replication
+[VM Cluster A] --> [VM Cluster B] : VM Recovery
+[Storage A] --> [Storage B (Replica)] : Data Sync
+
+note bottom of [VM Cluster B]
+  DR Site takes over workloads
+  ensuring business continuity
+end note
+
+@enduml
