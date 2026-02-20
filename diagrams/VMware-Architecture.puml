@@ -1,0 +1,37 @@
+@startuml
+title VMware Optimized Architecture
+
+node "Data Center A" {
+  cloud "vSphere Cluster A" {
+    [ESXi Host 1]
+    [ESXi Host 2]
+    [ESXi Host 3]
+  }
+  database "vSAN Storage"
+  [vCenter Server]
+}
+
+node "Data Center B (DR Site)" {
+  cloud "vSphere Cluster B" {
+    [ESXi Host 4]
+    [ESXi Host 5]
+  }
+  database "vSAN Storage (Replica)"
+  [vCenter Server DR]
+}
+
+rectangle "Aria Operations" as Aria
+rectangle "SRM (Site Recovery Manager)" as SRM
+
+[vCenter Server] --> Aria : Monitoring & Dashboards
+[vCenter Server] --> SRM : Replication & Failover
+[vCenter Server DR] --> SRM
+
+[ESXi Host 1] --> [vSAN Storage]
+[ESXi Host 2] --> [vSAN Storage]
+[ESXi Host 3] --> [vSAN Storage]
+
+[ESXi Host 4] --> [vSAN Storage (Replica)]
+[ESXi Host 5] --> [vSAN Storage (Replica)]
+
+@enduml
