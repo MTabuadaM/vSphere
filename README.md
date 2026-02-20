@@ -53,6 +53,18 @@ It includes **automation scripts, performance tuning guides, monitoring dashboar
 ```powershell
 .\Optimize-VMResources.ps1 -VMName "AppServer01" -CPUCount 4 -MemoryGB 8
 
+## 🖼️ Visual Architecture
+
+### VMware Optimized Architecture
+![VMware Architecture](diagrams/VMware-Architecture.puml)
+
+### vMotion Workflow
+![vMotion Workflow](diagrams/vMotion-Workflow.puml)
+
+### SRM Failover Process
+![SRM Failover](diagrams/SRM-Failover.puml)
+
+
 
 ## Author
 Mario Tabuada Mussio  
