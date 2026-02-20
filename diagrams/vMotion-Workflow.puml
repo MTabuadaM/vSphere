@@ -1,0 +1,22 @@
+@startuml
+title vMotion Workflow - Workload Balancing
+
+actor Admin
+rectangle "vCenter Server" {
+  [VM: AppServer01]
+  [ESXi Host A]
+  [ESXi Host B]
+}
+
+Admin --> [VM: AppServer01] : Initiates vMotion
+[VM: AppServer01] --> [ESXi Host A] : Current Host
+[VM: AppServer01] --> [ESXi Host B] : Target Host
+
+note right of [ESXi Host B]
+  vMotion transfers:
+  - CPU & Memory state
+  - Active sessions
+  - Storage pointers
+end note
+
+@enduml
