@@ -66,8 +66,9 @@ It includes **automation scripts, performance tuning guides, monitoring dashboar
 
 
 
-## Author
+# 👨‍💻 Author
 Mario Tabuada Mussio  
-Cloud Solution Architect | IT Technical Manager  
-LinkedIn: [Mario Tabuada Mussio](https://www.linkedin.com/in/mario-tabuada-mussio-2830412/)  
-YouTube: [Virtualization & Digital Transformation](https://www.youtube.com/@MarioTabuadaMussio)
+Cloud Solution Architect | IT Technical Manager
+📧 mario.tabuada@outlook.com
+🌐 LinkedIn: [Mario Tabuada Mussio](https://www.linkedin.com/in/mario-tabuada-mussio-2830412/)  
+🎥 YouTube: [Virtualization & Digital Transformation](https://www.youtube.com/@MarioTabuadaMussio)
