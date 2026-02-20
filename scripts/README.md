@@ -47,7 +47,8 @@ Credentials should be managed securely (avoid hardcoding passwords).
 
 Scripts are licensed under GNU GPL v3 (see [Looks like the result wasn't safe to show. Let's switch things up and try something else!]).
 
-# Maintainer: Mario Tabuada Mussio
-Cloud Solution Architect | IT Technical Manager
-
+**Maintainer:** Mario Tabuada Mussio  
+Cloud Solution Architect | IT Technical Manager  
+LinkedIn: [Mario Tabuada Mussio](https://www.linkedin.com/in/mario-tabuada-mussio-2830412/)  
+YouTube: [Virtualization & Digital Transformation](https://www.youtube.com/@MarioTabuadaMussio)
 ---
