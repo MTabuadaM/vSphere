@@ -76,7 +76,7 @@ These additional scripts focus on inventory, health checks, reporting, and clean
 ```powershell
 .\scripts\VM-Inventory-Report.ps1 -vCenterServer "vcsa01.yourdomain.local" -OutputFormat CSV
 
-Notes
+# Notes
 All scripts require VMware PowerCLI. Install it with:PowerShell
 ```powershell
 Install-Module -Name VMware.PowerCLI -Scope CurrentUser -AllowClobber
@@ -90,7 +90,8 @@ For more details on each script, refer to the inline help:
 ```powershell
 Get-Help .\scripts\VM-Health-Check.ps1 -Full
 
-Author
+---
+# Author
 Mario Tabuada Mussio
 Cloud Solution Architect | IT Technical Manager
 📧 mario.tabuada@outlook.com
