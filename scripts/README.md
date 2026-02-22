@@ -66,46 +66,45 @@ These additional scripts focus on inventory, health checks, reporting, and clean
 - vMotion Workflow: ![vMotion Workflow](diagrams/vMotion-Workflow.puml)
 - SRM Failover Process: ![SRM Failover](diagrams/SRM-Failover.puml)
 
-## Usage Examples
+### Usage Examples
 
-### Optimize VM Resources
-
+#### Optimize VM Resources
 ```powershell
 .\scripts\Optimize-VMResources.ps1 -VMName "AppServer01" -CPUCount 4 -MemoryGB 8
 
 ### Generate VM Inventory Report (new)
-
+```powershell
 .\scripts\VM-Inventory-Report.ps1 -vCenterServer "vcsa01.yourdomain.local" -OutputFormat CSV
 
-### Notes:
+Notes
+All scripts require VMware PowerCLI. Install it with:PowerShell
+```powershell
+Install-Module -Name VMware.PowerCLI -Scope CurrentUser -AllowClobber
 
-All scripts require VMware PowerCLI (install via Install-Module -Name VMware.PowerCLI). Always test in a non-production environment first.
 Important Disclaimer
 These scripts are community-contributed and not officially supported by VMware/Omnissa/Broadcom.
-Use at your own risk. Always back up configurations, test thoroughly in a lab, and verify compatibility with your vSphere version. No warranties expressed or implied.
-For more details on each script, refer to the inline help (e.g., Get-Help .\scripts\VM-Health-Check.ps1 -Full).
+Use at your own risk. Always back up configurations, test thoroughly in a lab, and verify compatibility with your vSphere version.
+No warranties expressed or implied.
 
----
+For more details on each script, refer to the inline help:
+```powershell
+Get-Help .\scripts\VM-Health-Check.ps1 -Full
 
-## Author
+Author
 Mario Tabuada Mussio
 Cloud Solution Architect | IT Technical Manager
 📧 mario.tabuada@outlook.com
 🌐 LinkedIn: Mario Tabuada Mussio
 🎥 YouTube: Virtualization & Digital Transformation
 
----
-
 Contributing
 See CONTRIBUTING.md for guidelines on how to contribute.
 
 License
-This project is licensed under the GNU General Public License v3.0 - see the License file for details.
+This project is licensed under the GNU General Public License v3.0 — see the LICENSE file for details.
 
 Code of Conduct
 We follow the Contributor Covenant Code of Conduct.
 
 Security
 Report security issues via SECURITY.md.
----
-
