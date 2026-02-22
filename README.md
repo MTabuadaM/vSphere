@@ -26,6 +26,12 @@ It includes **automation scripts, performance tuning guides, monitoring dashboar
 
 ---
 
+## Roadmap
+
+See our planned features, priorities, and future scripts in the dedicated [ROADMAP.md](ROADMAP.md) file.
+
+---
+
 ## 📂 Repository Structure
 
 ### 🔹 Scripts & Automation
@@ -63,7 +69,6 @@ It includes **automation scripts, performance tuning guides, monitoring dashboar
 
 ### SRM Failover Process
 ![SRM Failover](diagrams/SRM-Failover.puml)
-
 
 
 # 👨‍💻 Author
