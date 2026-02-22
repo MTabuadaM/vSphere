@@ -49,22 +49,8 @@ See our planned features, priorities, and future scripts in the dedicated [ROADM
 - `Failover-Test.ps1` → Simulates SRM failover for DRP validation.  
 
 ### 🔹 Documentation
-- `Runbook-VMOptimization.md` → Step-by-step guide for optimization workflows.  
-
----
-
-<div align="center">
-
-# 👨‍💻 Author
-
-**Mario Tabuada Mussio**  
-Cloud Solution Architect | IT Technical Manager
-
-📧 [mario.tabuada@outlook.com](mailto:mario.tabuada@outlook.com)  
-🌐 [LinkedIn](https://www.linkedin.com/in/mario-tabuada-mussio-2830412/)  
----
-
-## ⚙️ Usage Examples
+- `Runbook-VMOptimization.md` → Step-by-step guide for optimization workflows.
+- ## ⚙️ Usage Examples
 
 ### Optimize VM Resources
 ```powershell
@@ -81,6 +67,19 @@ Cloud Solution Architect | IT Technical Manager
 ### SRM Failover Process
 ![SRM Failover](diagrams/SRM-Failover.puml)
 
+---
+
+<div align="center">
+
+# 👨‍💻 Author
+
+**Mario Tabuada Mussio**  
+Cloud Solution Architect | IT Technical Manager
+
+📧 [mario.tabuada@outlook.com](mailto:mario.tabuada@outlook.com)  
+🌐 [LinkedIn](https://www.linkedin.com/in/mario-tabuada-mussio-2830412/)  
 🎥 [YouTube: Virtualization & Digital Transformation](https://www.youtube.com/@MarioTabuadaMussio)
 
 </div>
+
+---
