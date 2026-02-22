@@ -50,12 +50,12 @@ See our planned features, priorities, and future scripts in the dedicated [ROADM
 
 ### 🔹 Documentation
 - `Runbook-VMOptimization.md` → Step-by-step guide for optimization workflows.
+- 
 - ## ⚙️ Usage Examples
-
-### Optimize VM Resources
-```powershell
-.\Optimize-VMResources.ps1 -VMName "AppServer01" -CPUCount 4 -MemoryGB 8
-
+- ### Optimize VM Resources
+- ```powershell
+  .\Optimize-VMResources.ps1 -VMName "AppServer01" -CPUCount 4 -MemoryGB 8
+  
 ## 🖼️ Visual Architecture
 
 ### VMware Optimized Architecture
@@ -68,7 +68,6 @@ See our planned features, priorities, and future scripts in the dedicated [ROADM
 ![SRM Failover](diagrams/SRM-Failover.puml)
 
 ---
-
 <div align="center">
 
 # 👨‍💻 Author
@@ -81,5 +80,4 @@ Cloud Solution Architect | IT Technical Manager
 🎥 [YouTube: Virtualization & Digital Transformation](https://www.youtube.com/@MarioTabuadaMussio)
 
 </div>
-
 ---
