@@ -11,6 +11,7 @@ The roadmap is iterative and subject to change based on community feedback and e
 - [ ] Include **Mermaid.js diagrams** for lightweight visualization directly in GitHub.
 - [ ] Add **sample dashboards** for Aria Operations and SolarWinds integration.
 - [ ] Publish **Release v1.0** with stable scripts and documentation.
+- [ ] Add educational resources: PowerCLI cmdlets reference guide and combined script examples (docs/PowerCLI-Quick-Reference.md)
 
 ---
 
