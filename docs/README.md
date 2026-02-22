@@ -5,6 +5,14 @@ They provide practical instructions for applying optimization, monitoring, and d
 
 ---
 
+### PowerCLI Reference & Learning Resources
+
+For a quick reference of common **PowerCLI cmdlets** categorized by function (VMs, Compute, Networking, Storage, etc.), see:
+
+- [PowerCLI Quick Reference Guide](docs/PowerCLI-Quick-Reference.md)  
+  Includes tables, examples, and real-world script patterns.
+---
+
 ## 📘 Runbook-VMOptimization.md
 
 **Purpose:**  
