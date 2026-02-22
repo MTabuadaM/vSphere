@@ -72,9 +72,15 @@ See our planned features, priorities, and future scripts in the dedicated [ROADM
 
 ---
 
+<div align="center">
+
 # 👨‍💻 Author
-Mario Tabuada Mussio  
+
+**Mario Tabuada Mussio**  
 Cloud Solution Architect | IT Technical Manager
-📧 mario.tabuada@outlook.com
-🌐 LinkedIn: [Mario Tabuada Mussio](https://www.linkedin.com/in/mario-tabuada-mussio-2830412/)  
-🎥 YouTube: [Virtualization & Digital Transformation](https://www.youtube.com/@MarioTabuadaMussio)
+
+📧 [mario.tabuada@outlook.com](mailto:mario.tabuada@outlook.com)  
+🌐 [LinkedIn](https://www.linkedin.com/in/mario-tabuada-mussio-2830412/)  
+🎥 [YouTube: Virtualization & Digital Transformation](https://www.youtube.com/@MarioTabuadaMussio)
+
+</div>
