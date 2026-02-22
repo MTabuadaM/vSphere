@@ -85,12 +85,16 @@ These scripts are community-contributed and not officially supported by VMware/O
 Use at your own risk. Always back up configurations, test thoroughly in a lab, and verify compatibility with your vSphere version. No warranties expressed or implied.
 For more details on each script, refer to the inline help (e.g., Get-Help .\scripts\VM-Health-Check.ps1 -Full).
 
-# Author
+---
+
+## Author
 Mario Tabuada Mussio
 Cloud Solution Architect | IT Technical Manager
 📧 mario.tabuada@outlook.com
 🌐 LinkedIn: Mario Tabuada Mussio
 🎥 YouTube: Virtualization & Digital Transformation
+
+---
 
 Contributing
 See CONTRIBUTING.md for guidelines on how to contribute.
@@ -103,4 +107,5 @@ We follow the Contributor Covenant Code of Conduct.
 
 Security
 Report security issues via SECURITY.md.
-#
+---
+
